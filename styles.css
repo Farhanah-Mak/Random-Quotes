@@ -1,0 +1,54 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: green;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: .8s linear;
+}
+
+.container{
+    background-color: white;
+    color: green;
+
+    width: 90vmin;
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    box-shadow: 2px 3px 6px rgba(0,0,0,0.3);
+    position: relative;
+}
+.container .quote{
+   margin-bottom: 30px;
+
+}
+.fade{
+    transition: .8s linear;
+}
+.container .author{
+        display: block;
+        text-align: left;
+        font-weight: bold;
+        margin-bottom: 30px;
+        font-size: 18px;
+        
+}
+.container .btn{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.container .btn:hover{
+    filter: brightness(.9);
+}
